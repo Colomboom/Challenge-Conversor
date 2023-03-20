@@ -63,7 +63,7 @@ public class ConversorAPI {
         if (apiKey == null) {
 
             JEditorPane ep = new JEditorPane("text/html",
-                "<body><a href='https://apilayer.com/signup'>Clique aqui se cadastrar e obter sua chave.</a></body></html>");
+                "<body><a href='https://apilayer.com/marketplace/fixer-api'>Clique aqui se cadastrar e obter sua chave.</a></body></html>");
         ep.setEditable(false);
         ep.setOpaque(false);
         ep.addHyperlinkListener(new HyperlinkListener() {
