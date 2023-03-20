@@ -1,18 +1,21 @@
-## Getting Started
+## Desafio: Conversor de Moedas
+Desafiados pelo programa ONE - Oracle Next Education + Alura, o intuito era criar um conversor de moedas com alguma opções para conversão (Dólar, Euro, Libra, Peso Argentino, Peso Chileno e Real) utilizando Swing, biblioteca do Java.
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Nos foi proposto como desafio extra implementar outros conversores à nossa escolha, além do conversor de moedas (infelizmente não os fiz, mas vão ser implementados futuramente).
 
-## Folder Structure
 
-The workspace contains two folders by default, where:
+## Sobre o Projeto
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+O projeto conta somente (por enquanto) com a conversão das seguintes moedas
+  - Dólar
+  - Euro
+  - Libra
+  - Peso Argentino
+  - Peso Chileno
+  - Real
+  
+A conversão pode ser feita livremente entre elas, com cotação obtida em tempo real com o auxilio de uma API. Será necessário criar uma conta no site para resgatar uma chave própria e assim fazer as conversões.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+## Executando
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Para testar basta fazer o download do arquivo .zip, abrir sua IDE de preferencia e abrir o ficheiro. Ao executar o programa, ele ira abrir uma caixa com um link direcionando para o site da API onde você fará o cadastro copiará sua chave, que será pedida logo após clicar no botão "OK" (sua chave ficará salva para execuções futuras), após é só prosseguir e testar o conversor.
